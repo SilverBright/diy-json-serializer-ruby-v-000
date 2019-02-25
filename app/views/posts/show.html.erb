@@ -1,6 +1,6 @@
-<div><%= @post.author.name %></div>
-<h1><%= @post.title %></h1>
+<h1 class="postTitle"><%= @post.title %></h1>
 <p><%= @post.description %></p>
+<a href="#" class="js-next" data-id="<%=@post.id%>">Next...</a>
 
 <div class="authorName"><%= @post.author.name %></div>
 <a href="#" class="js-next" data-id="<%=@post.id%>">Next...</a>
